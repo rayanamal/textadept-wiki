@@ -1,3 +1,261 @@
 Welcome to the Textadept wiki.
 
-Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor for programmers. Written in a combination of C and Lua and relentlessly optimized for speed and minimalism over years, Textadept is an ideal editor for programmers who want endless extensibility without sacrificing speed and disk space, and without succumbing to code bloat and a superabundance of features.
+Textadept is a fast, minimalist, and remarkably extensible cross-platform text
+editor for programmers. Written in a combination of C and Lua and relentlessly
+optimized for speed and minimalism over years, Textadept is an ideal editor for
+programmers who want endless extensibility without sacrificing speed and disk
+space, and without succumbing to code bloat and a superabundance of features.
+
+---
+[Wiki Editing Tips](EditingTips)
+---
+
+## Language Modules
+
+Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
+[zipped release](https://orbitalquark.github.io/textadept/changelog.html) and in
+[git](https://github.com/orbitalquark/textadept-modules).
+
+* [CoffeeScript](http://rgieseke.github.com/ta-coffeescript)
+* [D programming language](https://bitbucket.org/SirAlaran/ta-d/) -- works with
+  [Dscanner](https://bitbucket.org/SirAlaran/dscanner) program to provide
+  autocomplete for D code.
+* [Python](https://bitbucket.org/SirAlaran/ta-python/) -- Helps automate
+  indentation in Python code.
+* [LaTeX](https://bitbucket.org/SirAlaran/ta-latex/) -- Snippets for LaTeX
+  markup.
+* [ConTeXt/LaTeX](https://github.com/stephengaito/ta-context-latex)
+* [XML](https://bitbucket.org/SirAlaran/ta-xml/) -- Closes XML tags as you type
+  them. Can automatically close tags at the cursor position. Contains several
+  XSLT snippets.
+* [Hypertext add-on](https://bitbucket.org/SirAlaran/ta-hypertext/) -- Several
+  of the above XML module's features, plus a limited implementation of the Zen
+  Coding abbreviation engine. Requires the official Hypertext module.
+* [Markdown](http://rgieseke.github.com/ta-markdown)
+* [Moonscript](https://bitbucket.org/a_baez/ta-moonscript) -- And another one by
+  the [creator of the language](https://github.com/leafo/moonscript-textadept).
+* A group of unsupported modules (including Adeptsenses) for Java, PHP, RHTML,
+  Ruby, and Ruby on Rails can be found [here](adeptsense)
+* [Toml](https://bitbucket.org/a_baez/ta-toml) -- A small module with snippets.
+* [Rust](https://bitbucket.org/a_baez/ta-rust) -- This thing has everything you
+  could think of for working with the Rust language.
+* [YANG](yang-support) -- A module for YANG.
+* [Javascript](https://github.com/AlexanderMisel/ta-javascript) -- A module for
+  Javascript.
+* [Lisp](https://repo.or.cz/ta-parkour.git) -- Structured editing for Lisp
+  dialects
+
+## Modules
+
+* [George's module collection](gmc) -- A collection of my most frequently used
+  modules, from a simple line centering utility to a reasonably complete macro
+  facility.
+* [Textredux](http://rgieseke.github.com/textredux/) -- Offers a set of text
+  based replacement interfaces for core Textadept functionality, including a
+  powerful file browser, buffer list, etc.
+* [Comments](ta-comments)
+* [File browser](ta-filebrowser)
+* [Lua REPL](lua-repl) -- A Lua REPL using Textadept's Lua State.
+* [ctags](ctags) -- A module for autoloading ctags, jumping between them, and
+  autocompleting from them.
+* [Elastic Tabstops](elastic-tabstops) -- An implementation of Nick Gravgaard’s
+  Elastic tabstops mechanism.
+* [Spell Checking](spellcheck) -- A module for spell checking.
+* [File diffing](filediff) -- A module for visualizing and merging the
+  differences between two files.
+* [Hastebin](https://bitbucket.org/a_baez/ta-hastebin) -- A
+  [hastebin](http://hastebin.com/) client module for Textadept.
+* [Lapis](https://bitbucket.org/a_baez/ta-lapis) -- A module to work with the
+  [lapis](http://leafo.net/lapis/) web framework.
+* [Love](https://bitbucket.org/a_baez/ta-love) -- A module to work with the
+  [LÖVE](http://love2d.org/) game engine.
+* [Linux](https://bitbucket.org/a_baez/ta-linux) -- A linux kernel development
+  module. Pretty simple, but works and makes life easier when working on those
+  kernel modules or other kernel business.
+* [Lua pattern find](lua-pattern-find) -- Brings back Textadept's Lua pattern
+  searches and toggles between them and regular expression searches.
+* [Export](export) -- A module for exporting buffers to various formats like
+  HTML for printing.
+* [Macro](macro) -- A simple module for recording and replaying of keyboard
+  macros.
+* [Relative line numbers](https://github.com/rufusroflpunch/textadept-relative) --
+  Module to display relative line numbers. Especially useful alongside vim-like
+  modules.
+* [LSP](lsp)client module that communicates over the
+  [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)
+  with language servers in order to provide autocompletion, callips, go to
+  definition, etc.
+* [Enhanced Show Style](enhanced-show-style) -- Modify the "show style" tooltip
+  to display the names of characters (code points) and the bytes that actually
+  appear in the saved version of the file.
+
+## Functions
+
+* [Selected word marker](https://github.com/lundmark/textadept_swm) allows you
+  to select text in your buffer and all occurrences of that word will be
+  surrounded by a box-indicator.
+* [Brian's common functions](https://bitbucket.org/SirAlaran/ta-common/)
+* [Folding Key Commands](FoldingCommands)
+* [Math - Replace selected equation with its value](bcmath)
+* [Open terminal here (Linux/BSD)](TerminalHere)
+* [Open webpage or link](OpenWebpage)
+* [Replace Posix time with date](PosixDate)
+* [Combining close and unsplit](CloseUnsplitView)
+* [Delete Lines](DeleteLines)
+* [Enclose functions](enclose)
+* [Append a final newline to file](final-newline)
+* [Alternative save-strips-whitespace function](SaveStripsWs)
+* [Goto Symbol (filtered list)](GotoSymbol)
+* [Quick "find next" for words under the cursor](GotoNearestOccurrence)
+* [C/C++: completion with clang++](CppClangCompletion)
+* [C/C++: automatic indentation with uncrustify](CppUncrustifyIndent)
+* [Highlight trailing whitespace](HightlightTrailingWhitespace)
+* [Stats](Stats) shows line, word, and character counts
+* [Switch to previous buffer (z-order)](previous-buffer-z-order) switches to the
+  most recently used buffer, not the previous buffer in the buffer list.
+* [Control+Tab option: navigate buffers in MRU order ](control-tab-mru)
+* [Import default session](import-default-session) allows you to import the
+  default, previous session into the current session.
+
+## Themes
+
+* [70+ Base-16 themes](https://github.com/rgieseke/ta-themes)
+* [Black](BlackTheme)
+
+## Collection of Modifications, ~/.textadept
+
+* [rgieseke's common module](http://rgieseke.github.com/ta-common/)
+* [Alejandro's common module](https://bitbucket.org/a_baez/ta-common)
+* [Brian's ~/.textadept/ folder](http://hackerpilot.org/configs.php)
+* [Mitchell's ~/.textadept/](https://github.com/orbitalquark/.textadept)
+* [Alejandro's ~/.textadept/](https://bitbucket.org/a_baez/ta-userhome)
+* [Gabriel's tweaks](https://github.com/gabdub/ta-tweaks)
+
+## Theming
+
+* [Line number margin for large files](LineNumberMargin)
+* [Fontsize](Fontsize)
+* [Distraction Free Mode](DistractionFreeMode)
+* [Adjust line number margin on zoom](AdjustLineNumberMarginOnZoom)
+* [Change statusbar color](ChangeStatusbarColor)
+
+## Snippets
+
+* [Library](SnippetLibrary)
+* [Extra](https://bitbucket.org/a_baez/ta-extra) -- A module for adding
+  snippets/changes to languages on Textadept, without having to write modules
+  for each one.
+
+## Lexers
+
+* [Lexer snippets](LexerSnippets)
+
+## Articles, Guides, and Write-ups
+
+* [Beautify Textadept](https://medium.com/@a_baez/beautify-textadept-87a0c6e384a8)
+* [Textadept and Snippets](https://medium.com/@a_baez/textadept-and-snippets-e55557c02ff1)
+* [Textadept Language Lexers](https://medium.com/@a_baez/textadept-language-lexers-fd96f62e9527)
+* [Textadept Modules](https://medium.com/@a_baez/a-textadept-module-db906f195195?source=your-stories)
+* [Textadept's Userhome](https://medium.com/@a_baez/textadept-s-userhome-29ed8128db52#.owk71g6cz)
+* [Review: Textadept](http://yfl.bahmanm.com/Members/ttmrichter/software-reviews/textadept-review)
+* [Textadept is fun to use and hack - Part 1](http://thejeshgn.com/2015/02/28/textadept-is-fun-to-use-and-hack-part-1/)
+
+## Miscellaneous
+
+* [Easy entry of ISO-Latin-1 characters with Textadept](Latin1)
+* [A folding exercise](Fold)
+* [Locale dependent key shortcuts](LocaleDependentKeys)
+* [Find/Replace](FindReplace)
+* [Keyboard Shortcuts](https://orbitalquark.github.io/textadept/api.html#textadept.keys)
+* [Linux / BSD Desktop integration (freedesktop.org .desktop file)](FdoDesktop)
+* [Stupid shell trick](http://yfl.bahmanm.com/Members/ttmrichter/yfl-blog/stupid-shell-trick)
+  for launching Textadept, among other GUI programs, from the console.
+* [Viewer mode](TextadeptViewer)
+* [Send selected text to **tmux**](selection2tmux) to work with a REPL from
+  within TextAdept
+* [Adeptsense](adeptsense) - code autocompletion and documentation.
+* [How to close a file by double-clicking in its tab](tab-double-click) - how to
+  add a new custom event to textadept.c
+* How to open Textadept in [wait-mode](wait-mode), that is, open a file in a new
+  instance of Textadept, wait for it to be closed, and then quit Textadept.
+* [Conveniently search for UTF-8 codepoints in regex.](utf8-codepoint-regex)
+
+---
+
+## Notes and Scripts for Old Versions
+
+### Stuff Only Working for 8.x
+
+* [Migrating to Textadept 9](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-9-to-10)
+
+#### Modules
+
+* [Version control](version-control) -- A rudimentary version control module
+  that supports basic VCS features from within Textadept.
+* [Multiedit](multiedit) -- Better multi selection navigation/editing
+  (sublimeish)
+
+#### Miscellaneous
+
+* [Keybord map like screen utility](https://bitbucket.org/dragonfyre13/ta-screen-keys/overview)
+
+### Stuff Only Working for 6.x
+
+* [Migrating to Textadept 7](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-6-to-7)
+
+#### Themes
+
+* [Solarized](solarized)
+* [Green Mango](https://github.com/brickcap/textadept-custom-themes)
+* [Diogo Dark](https://github.com/ocorreiododiogo/diogo-dark-theme)
+
+### Stuff Only Working for 5.x
+
+* [Migrating to Textadept 6](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-5-to-6)
+
+#### Language Modules
+
+* [Javascript](https://bitbucket.org/SirAlaran/ta-javascript/) -- Provides
+  adeptsense autocompletion for several DOM methods and a subset of jQuery.
+
+#### Themeing
+
+* [More fold markers](MoreFoldMarkers)
+
+### Stuff Only Working for 3.x and 4.x
+
+* [Migrating to Textadept 5](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-4-to-5)
+* [Migrating to Textadept 4](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-3-to-4)
+
+#### Language Modules
+
+* [PKGBUILD module](ta-pkgbuild)
+
+#### Modules
+
+* [Load "Common" modules](modules-common)
+* [Zen-coding-style hypertext snippets](zenlike)
+* [XML editing utilities](XmlComplete)
+* [C-Style](CStyle)
+* [Multi-Edit](multi-edit)
+* [Line Wrap](LineWrap)
+
+#### Functions
+
+* [Function Selector - Manage lua functions with a filtered list](FunctionList)
+* [Rectangular selection](http://gist.github.com/421382)
+* [Insert Filename](InsertFilename)
+* [quote enclose and add a comma to each line of selected text](QuoteEncloseSelectedLines)
+
+#### Themes
+
+* [Classic Themes](ClassicThemes)
+* [Alaran-Dark](AlaranDark3)
+
+#### Snippets
+
+* [HTML](HypertextSnippets)
+
+#### Miscellaneous
+
+* [Instructions for portable cross-platform usage](RelativePaths)
