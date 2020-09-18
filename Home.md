@@ -6,6 +6,11 @@ optimized for speed and minimalism over years, Textadept is an ideal editor for
 programmers who want endless extensibility without sacrificing speed and disk
 space, and without succumbing to code bloat and a superabundance of features.
 
+**Note: Textadept 11 is currently in development, which has many API and
+configuration changes compared to 10.8. See the
+[migration guide](https://orbitalquark.github.io/textadept/manual.html#migrating-from-textadept-10-to-11)
+for more information on those changes. Wiki content may not yet be up to date.**
+
 ---
 [Wiki Editing Tips](EditingTips)
 ---
