@@ -21,6 +21,20 @@ Search for 'textadept' on GitLab: https://gitlab.com/search?search=textadept
 
 Textadept topic on GitHub: https://github.com/topics/textadept
 
+## Modules already updated for Textadept 11 alpha
+
+### Modules
+
+* Textredux (https://github.com/rgieseke/textredux) -- Offers a set of text
+  based replacement interfaces for core Textadept functionality, including a
+  powerful file browser, buffer list, etc.
+* textadept-vi (https://github.com/jugglerchris/textadept-vi)
+  Some customisation for textadept to make it feel a bit like vim. 
+
+### Themes
+
+* [150+ Base-16 themes](https://github.com/rgieseke/base16-textadept/)
+
 ## Language Modules
 
 Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
@@ -61,9 +75,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [George's module collection](gmc) -- A collection of my most frequently used
   modules, from a simple line centering utility to a reasonably complete macro
   facility.
-* [Textredux](http://rgieseke.github.com/textredux/) -- Offers a set of text
-  based replacement interfaces for core Textadept functionality, including a
-  powerful file browser, buffer list, etc.
 * [Comments](ta-comments)
 * [File browser](ta-filebrowser)
 * [Lua REPL](lua-repl) -- A Lua REPL using Textadept's Lua State.
@@ -130,7 +141,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 ## Themes
 
-* [150+ Base-16 themes](https://github.com/rgieseke/base16-textadept/)
 * [Black](BlackTheme)
 
 ## Collection of Modifications, ~/.textadept
