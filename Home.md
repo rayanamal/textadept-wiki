@@ -130,7 +130,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 ## Themes
 
-* [70+ Base-16 themes](https://github.com/rgieseke/ta-themes)
+* [150+ Base-16 themes](https://github.com/rgieseke/base16-textadept/)
 * [Black](BlackTheme)
 
 ## Collection of Modifications, ~/.textadept
