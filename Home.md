@@ -17,6 +17,8 @@ for more information on those changes. Wiki content may not yet be up to date.**
 
 Search for 'textadept' on GitHub: https://github.com/search?o=desc&q=textadept&s=updated&type=Repositories
 
+Search for 'textadept' on GitLab: https://gitlab.com/search?search=textadept
+
 Textadept topic on GitHub: https://github.com/topics/textadept
 
 ## Language Modules
