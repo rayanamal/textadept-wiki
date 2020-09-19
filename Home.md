@@ -17,6 +17,8 @@ for more information on those changes. Wiki content may not yet be up to date.**
 
 Search for 'textadept' on GitHub: https://github.com/search?o=desc&q=textadept&s=updated&type=Repositories
 
+Textadept topic on GitHub: https://github.com/topics/textadept
+
 ## Language Modules
 
 Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
