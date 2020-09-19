@@ -31,6 +31,10 @@ Textadept topic on GitHub: https://github.com/topics/textadept
 * textadept-vi (https://github.com/jugglerchris/textadept-vi)
   Some customisation for textadept to make it feel a bit like vim. 
 
+### Language modules
+
+* Markdown (https://github.com/rgieseke/ta-markdown)
+
 ### Themes
 
 * [150+ Base-16 themes](https://github.com/rgieseke/base16-textadept/)
@@ -56,7 +60,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Hypertext add-on](https://bitbucket.org/SirAlaran/ta-hypertext/) -- Several
   of the above XML module's features, plus a limited implementation of the Zen
   Coding abbreviation engine. Requires the official Hypertext module.
-* [Markdown](http://rgieseke.github.com/ta-markdown)
 * [Moonscript](https://bitbucket.org/a_baez/ta-moonscript) -- And another one by
   the [creator of the language](https://github.com/leafo/moonscript-textadept).
 * A group of unsupported modules (including Adeptsenses) for Java, PHP, RHTML,
