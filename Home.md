@@ -33,7 +33,11 @@ Textadept topic on GitHub: https://github.com/topics/textadept
 
 ### Language modules
 
+* D (https://github.com/Hackerpilot/textadept-d) -- works with
+  [Dscanner](https://github.com/Hackerpilot/Dscanner/) program to provide
+  autocomplete for D code.
 * Markdown (https://github.com/rgieseke/ta-markdown)
+
 
 ### Themes
 
@@ -46,9 +50,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 [git](https://github.com/orbitalquark/textadept-modules).
 
 * [CoffeeScript](http://rgieseke.github.com/ta-coffeescript)
-* [D programming language](https://bitbucket.org/SirAlaran/ta-d/) -- works with
-  [Dscanner](https://bitbucket.org/SirAlaran/dscanner) program to provide
-  autocomplete for D code.
 * [Python](https://bitbucket.org/SirAlaran/ta-python/) -- Helps automate
   indentation in Python code.
 * [LaTeX](https://bitbucket.org/SirAlaran/ta-latex/) -- Snippets for LaTeX
