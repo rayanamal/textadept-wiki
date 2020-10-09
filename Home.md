@@ -29,7 +29,7 @@ Textadept topic on GitHub: https://github.com/topics/textadept
   based replacement interfaces for core Textadept functionality, including a
   powerful file browser, buffer list, etc.
 * textadept-vi (https://github.com/jugglerchris/textadept-vi)
-  Some customisation for textadept to make it feel a bit like vim. 
+  Some customisation for textadept to make it feel a bit like vim.
 
 ### Language modules
 
@@ -47,7 +47,7 @@ Textadept topic on GitHub: https://github.com/topics/textadept
 
 Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 [zipped release](https://orbitalquark.github.io/textadept/changelog.html) and in
-[git](https://github.com/orbitalquark/textadept-modules).
+[various repositories](https://github.com/orbitalquark).
 
 * [CoffeeScript](http://rgieseke.github.com/ta-coffeescript)
 * [Python](https://bitbucket.org/SirAlaran/ta-python/) -- Helps automate
@@ -81,14 +81,16 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   facility.
 * [Comments](ta-comments)
 * [File browser](ta-filebrowser)
-* [Lua REPL](lua-repl) -- A Lua REPL using Textadept's Lua State.
-* [ctags](ctags) -- A module for autoloading ctags, jumping between them, and
-  autocompleting from them.
+* [Lua REPL](https://github.com/orbitalquark/textadept-lua-repl) -- A Lua REPL
+  using Textadept's Lua State.
+* [ctags](https://github.com/orbitalquark/textadept-ctags) -- A module for
+  autoloading ctags, jumping between them, and autocompleting from them.
 * [Elastic Tabstops](elastic-tabstops) -- An implementation of Nick Gravgaard’s
   Elastic tabstops mechanism.
-* [Spell Checking](spellcheck) -- A module for spell checking.
-* [File diffing](filediff) -- A module for visualizing and merging the
-  differences between two files.
+* [Spell Checking](https://github.com/orbitalquark/textadept-spellcheck) -- A
+  module for spell checking.
+* [File diffing](https://github.com/orbitalquark/textadept-file-diff) -- A
+  module for visualizing and merging the differences between two files.
 * [Hastebin](https://bitbucket.org/a_baez/ta-hastebin) -- A
   [hastebin](http://hastebin.com/) client module for Textadept.
 * [Lapis](https://bitbucket.org/a_baez/ta-lapis) -- A module to work with the
@@ -100,14 +102,15 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   kernel modules or other kernel business.
 * [Lua pattern find](lua-pattern-find) -- Brings back Textadept's Lua pattern
   searches and toggles between them and regular expression searches.
-* [Export](export) -- A module for exporting buffers to various formats like
-  HTML for printing.
+* [Export](https://github.com/orbitalquark/textadept-export) -- A module for
+  exporting buffers to various formats like HTML for printing.
 * [Macro](macro) -- A simple module for recording and replaying of keyboard
   macros.
 * [Relative line numbers](https://github.com/rufusroflpunch/textadept-relative) --
   Module to display relative line numbers. Especially useful alongside vim-like
   modules.
-* [LSP](lsp)client module that communicates over the
+* [LSP](https://github.com/orbitalquark/textadept-lsp) client module that
+  communicates over the
   [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)
   with language servers in order to provide autocompletion, callips, go to
   definition, etc.
