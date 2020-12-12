@@ -38,5 +38,4 @@ http://uncrustify.sourceforge.net/
 
 To bind this function to "tab" (as emacs does it):
 
-    if not _G.keys.cpp then _G.keys.cpp = {} end
     _G.keys.cpp['\t'] = indent_cpp

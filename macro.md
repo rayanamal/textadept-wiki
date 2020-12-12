@@ -8,9 +8,9 @@ To install this module git clone it in your *~/.textadept/modules* and add this:
 
 and something like this
 
-    keys.cr = macro.record
-    keys.cR = macro.finish
-    keys.ar = macro.replay
+    keys['ctrl+r'] = macro.record
+    keys['ctrl+R'] = macro.finish
+    keys['alt+r'] = macro.replay
 
 to your *init.lua*.
 

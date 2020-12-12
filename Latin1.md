@@ -133,7 +133,7 @@ You can bring this functionality in the user interface by binding it to a key or
 E.g., to bind `specialcharinsert` to `Ctrl+1`, put the following line in
 `.textadept/init.lua`:
 
-    keys['c1'] = specialcharinsert
+    keys['ctrl+1'] = specialcharinsert
 
 ## What about other characters ?
 

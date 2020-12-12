@@ -14,7 +14,7 @@ Place this in your *~/.textadept/init.lua*
         buffer:replace_sel(out:gsub("\n", ""))
     end
 
-    keys.cM = replaceMath
+    keys['ctrl+M'] = replaceMath
 
 `bc` is quite powerful. Selecting the text
 

@@ -4,7 +4,7 @@ event.
 
     function final_newline()
         local len = buffer.length
-        local last = string.char(buffer.char_at[len-1]) -- very last char is NUL
+        local last = string.char(buffer.char_at[len])
         if buffer.eol_mode == buffer.EOL_LF and last ~= '\n' then
             buffer:insert_text(len, '\n')
         elseif buffer.eol_mode == buffer.EOL_CR and last ~= '\r' then

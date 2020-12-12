@@ -19,11 +19,11 @@ you to the next (or previous) occurrence of the word under the cursor.
                     buffer.target_end = 0
             else
                     buffer.target_start = e + 1
-                    buffer.target_end = buffer.length
+                    buffer.target_end = buffer.length + 1
             end
             if buffer:search_in_target(word) == -1 then
                     if reverse then
-                            buffer.target_start = buffer.length
+                            buffer.target_start = buffer.length + 1
                             buffer.target_end = e + 1
                     else
                             buffer.target_start = 0
@@ -34,5 +34,5 @@ you to the next (or previous) occurrence of the word under the cursor.
             buffer:set_sel(buffer.target_start, buffer.target_end)
     end
 
-    keys.ck = function() goto_nearest_occurrence(false) end
-    keys.cK = function() goto_nearest_occurrence(true) end
+    keys['ctrl+k'] = function() goto_nearest_occurrence(false) end
+    keys['ctrl+K'] = function() goto_nearest_occurrence(true) end

@@ -19,4 +19,4 @@ Code:
 
 Assign a key binding to trigger the function. Example:
 
-    keys.cT = openTerminalHere
+    keys['ctrl+T'] = openTerminalHere

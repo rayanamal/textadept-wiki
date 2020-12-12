@@ -13,7 +13,7 @@ recently used buffer (z-order), put the following in your
       end
     end
 
-where `YOUR_KEY_HERE` is your desired key binding (e.g. `'al'` for Alt+L.)
+where `YOUR_KEY_HERE` is your desired key binding (e.g. `'alt+l'` for Alt+L.)
 
 You can also bind a key to `ui.switch_buffer(true)`, which lists buffers in
 z-order.

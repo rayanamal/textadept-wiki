@@ -17,10 +17,10 @@ This module provides additional enclose commands
     keys['"'] = function() enclose_selection('"', '"') end
     keys['('] = function() enclose_selection('(', ')') end
     keys['['] = function() enclose_selection('[', ']') end
-    keys['function()'] = function() enclose_selection('function()', '}') end
+    keys['{'] = function() enclose_selection('{', '}') end
 
-    keys["c'"] = function() paste_or_grow_enclose("'", "'") end
-    keys['c"'] = function() paste_or_grow_enclose('"', '"') end
-    keys['c('] = function() paste_or_grow_enclose('(', ')') end
-    keys['c['] = function() paste_or_grow_enclose('[', ']') end
-    keys['cfunction()'] = function() paste_or_grow_enclose('function()', '}') end
+    keys["ctrl+'"] = function() paste_or_grow_enclose("'", "'") end
+    keys['ctrl+"'] = function() paste_or_grow_enclose('"', '"') end
+    keys['ctrl+('] = function() paste_or_grow_enclose('(', ')') end
+    keys['ctrl+['] = function() paste_or_grow_enclose('[', ']') end
+    keys['ctrl+{'] = function() paste_or_grow_enclose('{', '}') end

@@ -9,7 +9,7 @@ Code:
     function stats()
         local n_lines = buffer.line_count
         local _, n_words = string.gsub(buffer:get_text(), "%S+", "")
-        local n_chars = buffer:count_characters(0, buffer.length)
+        local n_chars = buffer:count_characters(1, buffer.length + 1)
         if buffer.selection_empty then
             ui.dialogs.msgbox {title = 'Statistics',
                 text = string.format("Buffer:\n\n%d lines\n%d words\n%d characters",
@@ -28,4 +28,4 @@ Code:
 
 Assign a key binding to trigger the function. Example:
 
-    keys.cI = stats
+    keys['ctrl+I'] = stats

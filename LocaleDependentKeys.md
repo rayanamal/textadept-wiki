@@ -7,6 +7,6 @@ To add locale dependent keyboard short cuts with value below 256, for example
 `ß` you could use something like:
 
     -- Ctrl+ß
-    keys['c'..string.char(223)] = function()
+    keys['ctrl+'..string.char(223)] = function()
       ui.statusbar_text = "Ctrl-ß works."
     end

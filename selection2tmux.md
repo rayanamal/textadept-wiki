@@ -11,4 +11,4 @@ my fingers ...
       spawn("tmux paste-buffer -d");
     end
 
-    keys.ct = send_selection_to_tmux
+    keys['ctrl+t'] = send_selection_to_tmux

@@ -20,23 +20,21 @@ Add for example in your user *init.lua* or in a separate module:
     end
 
     function collapse_folds()
-      for i = 0, buffer.line_count - 1 do
+      for i = 1, buffer.line_count do
         collapse_fold(i)
       end
     end
 
     function expand_folds()
-      for i = 0, buffer.line_count - 1 do
+      for i = 1, buffer.line_count do
         expand_fold(i)
       end
     end
 
-    keys['aright'] = expand_fold
-    keys['aleft'] = collapse_fold
-    keys['caright'] = expand_folds
-    keys['caleft'] = collapse_folds
-
-`aright` is the same as `ALT+right` key caright is the same as `CTRL+ALT+right`
+    keys['alt+right'] = expand_fold
+    keys['alt+left'] = collapse_fold
+    keys['ctrl+alt+right'] = expand_folds
+    keys['ctrl+alt+left'] = collapse_folds
 
 Immediate testing of changes can be done with `F2` (To get a textadept command
 prompt) and the issue the command reset().

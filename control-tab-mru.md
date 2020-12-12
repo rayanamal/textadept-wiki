@@ -109,8 +109,8 @@ control+tab behavior:
       --activate the buffer in the TOP of the MRU list
       view:goto_buffer(mru_buff[1])
     end
-    keys['c\t'] = function() mru_ctrl_tab_handler(false) end
-    keys['cs\t']= function() mru_ctrl_tab_handler(true) end
+    keys['ctrl+\t'] = function() mru_ctrl_tab_handler(false) end
+    keys['ctrl+shift+\t']= function() mru_ctrl_tab_handler(true) end
 
     events.connect(events.KEYPRESS, function(code, shift, control, alt, meta)
       if code == 0xFFE3 or code == 0xFFE4 then --control key pressed? (left=65507=FFE3, right=65508=FFE4)

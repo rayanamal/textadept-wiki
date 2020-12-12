@@ -3,7 +3,7 @@
 If you often do an unsplit after closing a message or error buffer you can
 combine these into one key command in your *~/.textadept/init.lua*:
 
-    keys.cw = function()
+    keys['ctrl+w'] = function()
       if buffer._type then
         buffer:close()
         ui.goto_view(-1)
@@ -66,7 +66,7 @@ Anyway here's the code that should work regardless of how the views are split.
         end
     end
 
-    keys.cw = function()
+    keys['ctrl+w'] = function()
       if buffer._type then
         buffer:close()
         goto_view_above()

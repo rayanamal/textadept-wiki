@@ -13,8 +13,8 @@ your code.
       cmd = cmd.." -I. -I.. -I../.."
       cmd = cmd.." -fdiagnostics-print-source-range-info"
       cmd = cmd.." -code-completion-at="
-      line = ""..(buffer:line_from_position(buffer.current_pos) + 1);
-      col = ""..(buffer.column[buffer.current_pos]+1)
+      line = ""..buffer:line_from_position(buffer.current_pos);
+      col = ""..buffer.column[buffer.current_pos]
       cmd = cmd..buffer.filename ..":"..line..":"..col.." "..buffer.filename
       io.save_file()
       local p = io.popen(cmd)
@@ -33,5 +33,4 @@ your code.
 
 To bind this function to control+i:
 
-    if not _G.keys.cpp then _G.keys.cpp = {} end
-    _G.keys.cpp.ci = complete_cpp
+    _G.keys.cpp['ctrl+i'] = complete_cpp

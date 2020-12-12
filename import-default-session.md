@@ -26,6 +26,6 @@ item.
         end
       end
     end
-    local file_menu = textadept.menu.menubar[_L['_File']]
+    local file_menu = textadept.menu.menubar[_L['File']]
     table.insert(file_menu, #file_menu - 2,
                 {'Import Default Session', import_default_session})

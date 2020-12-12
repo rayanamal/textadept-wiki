@@ -6,10 +6,11 @@ optimized for speed and minimalism over years, Textadept is an ideal editor for
 programmers who want endless extensibility without sacrificing speed and disk
 space, and without succumbing to code bloat and a superabundance of features.
 
-**Note: Textadept 11 is currently in development, which has many API and
+**Note: Textadept 11 has recently been released, which has many API and
 configuration changes compared to 10.8. See the
 [migration guide](https://orbitalquark.github.io/textadept/manual.html#migrating-from-textadept-10-to-11)
-for more information on those changes. Wiki content may not yet be up to date.**
+for more information on those changes. Wiki content should be up to date, but
+content in external links may not be.**
 
 ---
 [Wiki Editing Tips](EditingTips)
@@ -21,33 +22,18 @@ Search for 'textadept' on GitLab: https://gitlab.com/search?search=textadept
 
 Textadept topic on GitHub: https://github.com/topics/textadept
 
-## Modules already updated for Textadept 11 alpha
+## Language Modules
 
-### Modules
-
-* Textredux (https://github.com/rgieseke/textredux) -- Offers a set of text
-  based replacement interfaces for core Textadept functionality, including a
-  powerful file browser, buffer list, etc.
-* textadept-vi (https://github.com/jugglerchris/textadept-vi)
-  Some customisation for textadept to make it feel a bit like vim.
-
-### Language modules
+Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
+[zipped release](https://orbitalquark.github.io/textadept/changelog.html) and in
+[various repositories](https://github.com/orbitalquark).
 
 * D (https://github.com/Hackerpilot/textadept-d) -- works with
   [Dscanner](https://github.com/Hackerpilot/Dscanner/) program to provide
   autocomplete for D code.
 * Markdown (https://github.com/rgieseke/ta-markdown)
 
-
-### Themes
-
-* [150+ Base-16 themes](https://github.com/rgieseke/base16-textadept/)
-
-## Language Modules
-
-Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
-[zipped release](https://orbitalquark.github.io/textadept/changelog.html) and in
-[various repositories](https://github.com/orbitalquark).
+**The following may not be compatible with Textadept 11 yet**
 
 * [CoffeeScript](http://rgieseke.github.com/ta-coffeescript)
 * [Python](https://bitbucket.org/SirAlaran/ta-python/) -- Helps automate
@@ -63,8 +49,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   Coding abbreviation engine. Requires the official Hypertext module.
 * [Moonscript](https://bitbucket.org/a_baez/ta-moonscript) -- And another one by
   the [creator of the language](https://github.com/leafo/moonscript-textadept).
-* A group of unsupported modules (including Adeptsenses) for Java, PHP, RHTML,
-  Ruby, and Ruby on Rails can be found [here](adeptsense)
 * [Toml](https://bitbucket.org/a_baez/ta-toml) -- A small module with snippets.
 * [Rust](https://bitbucket.org/a_baez/ta-rust) -- This thing has everything you
   could think of for working with the Rust language.
@@ -76,21 +60,30 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 ## Modules
 
-* [George's module collection](gmc) -- A collection of my most frequently used
-  modules, from a simple line centering utility to a reasonably complete macro
-  facility.
-* [Comments](ta-comments)
-* [File browser](ta-filebrowser)
+* Textredux (https://github.com/rgieseke/textredux) -- Offers a set of text
+  based replacement interfaces for core Textadept functionality, including a
+  powerful file browser, buffer list, etc.
+* textadept-vi (https://github.com/jugglerchris/textadept-vi)
+  Some customisation for textadept to make it feel a bit like vim.
 * [Lua REPL](https://github.com/orbitalquark/textadept-lua-repl) -- A Lua REPL
   using Textadept's Lua State.
 * [ctags](https://github.com/orbitalquark/textadept-ctags) -- A module for
   autoloading ctags, jumping between them, and autocompleting from them.
-* [Elastic Tabstops](elastic-tabstops) -- An implementation of Nick Gravgaard’s
-  Elastic tabstops mechanism.
 * [Spell Checking](https://github.com/orbitalquark/textadept-spellcheck) -- A
   module for spell checking.
 * [File diffing](https://github.com/orbitalquark/textadept-file-diff) -- A
   module for visualizing and merging the differences between two files.
+* [Export](https://github.com/orbitalquark/textadept-export) -- A module for
+  exporting buffers to various formats like HTML for printing.
+* [LSP](https://github.com/orbitalquark/textadept-lsp) client module that
+  communicates over the
+  [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)
+  with language servers in order to provide autocompletion, callips, go to
+  definition, etc.
+
+**The following may not be compatible with Textadept 11 yet**
+
+* [Comments](ta-comments)
 * [Hastebin](https://bitbucket.org/a_baez/ta-hastebin) -- A
   [hastebin](http://hastebin.com/) client module for Textadept.
 * [Lapis](https://bitbucket.org/a_baez/ta-lapis) -- A module to work with the
@@ -100,23 +93,11 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Linux](https://bitbucket.org/a_baez/ta-linux) -- A linux kernel development
   module. Pretty simple, but works and makes life easier when working on those
   kernel modules or other kernel business.
-* [Lua pattern find](lua-pattern-find) -- Brings back Textadept's Lua pattern
-  searches and toggles between them and regular expression searches.
-* [Export](https://github.com/orbitalquark/textadept-export) -- A module for
-  exporting buffers to various formats like HTML for printing.
 * [Macro](macro) -- A simple module for recording and replaying of keyboard
   macros.
 * [Relative line numbers](https://github.com/rufusroflpunch/textadept-relative) --
   Module to display relative line numbers. Especially useful alongside vim-like
   modules.
-* [LSP](https://github.com/orbitalquark/textadept-lsp) client module that
-  communicates over the
-  [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)
-  with language servers in order to provide autocompletion, callips, go to
-  definition, etc.
-* [Enhanced Show Style](enhanced-show-style) -- Modify the "show style" tooltip
-  to display the names of characters (code points) and the bytes that actually
-  appear in the saved version of the file.
 
 ## Functions
 
@@ -148,7 +129,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 ## Themes
 
-* [Black](BlackTheme)
+* [150+ Base-16 themes](https://github.com/rgieseke/base16-textadept/)
 
 ## Collection of Modifications, ~/.textadept
 
@@ -174,10 +155,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   snippets/changes to languages on Textadept, without having to write modules
   for each one.
 
-## Lexers
-
-* [Lexer snippets](LexerSnippets)
-
 ## Articles, Guides, and Write-ups
 
 * [Beautify Textadept](https://medium.com/@a_baez/beautify-textadept-87a0c6e384a8)
@@ -191,7 +168,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 ## Miscellaneous
 
 * [Easy entry of ISO-Latin-1 characters with Textadept](Latin1)
-* [A folding exercise](Fold)
 * [Locale dependent key shortcuts](LocaleDependentKeys)
 * [Find/Replace](FindReplace)
 * [Keyboard Shortcuts](https://orbitalquark.github.io/textadept/api.html#textadept.keys)
@@ -201,20 +177,56 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Viewer mode](TextadeptViewer)
 * [Send selected text to **tmux**](selection2tmux) to work with a REPL from
   within TextAdept
-* [Adeptsense](adeptsense) - code autocompletion and documentation.
-* [How to close a file by double-clicking in its tab](tab-double-click) - how to
-  add a new custom event to textadept.c
 * How to open Textadept in [wait-mode](wait-mode), that is, open a file in a new
   instance of Textadept, wait for it to be closed, and then quit Textadept.
-* [Conveniently search for UTF-8 codepoints in regex.](utf8-codepoint-regex)
 
 ---
 
 ## Notes and Scripts for Old Versions
 
-### Stuff Only Working for 8.x
+### Stuff Only Working for 10.x
+
+* [Migrating to Textadept 11](https://orbitalquark.github.io/textadept/manual.html#migrating-from-textadept-10-to-11)
+
+#### Modules
+
+* [George's module collection](gmc) -- A collection of my most frequently used
+  modules, from a simple line centering utility to a reasonably complete macro
+  facility.
+* [File browser](ta-filebrowser)
+* [Elastic Tabstops](elastic-tabstops) -- An implementation of Nick Gravgaard’s
+  Elastic tabstops mechanism.
+* [Lua pattern find](lua-pattern-find) -- Brings back Textadept's Lua pattern
+  searches and toggles between them and regular expression searches.
+* [Enhanced Show Style](enhanced-show-style) -- Modify the "show style" tooltip
+  to display the names of characters (code points) and the bytes that actually
+  appear in the saved version of the file.
+
+#### Themes
+
+* [Black](BlackTheme)
+
+#### Lexers
+
+* [Lexer snippets](LexerSnippets)
+
+#### Miscellaneous
+
+* [A folding exercise](Fold)
+* [How to close a file by double-clicking in its tab](tab-double-click) - how to
+  add a new custom event to textadept.c
+
+### Stuff Only Working for 9.x
 
 * [Migrating to Textadept 9](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-9-to-10)
+
+#### Miscellaneous
+
+* [Conveniently search for UTF-8 codepoints in regex.](utf8-codepoint-regex)
+
+### Stuff Only Working for 8.x
+
+* [Migrating to Textadept 9](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-8-to-9)
 
 #### Modules
 
@@ -222,6 +234,19 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   that supports basic VCS features from within Textadept.
 * [Multiedit](multiedit) -- Better multi selection navigation/editing
   (sublimeish)
+
+### Stuff Only Working for 7.x
+
+* [Migrating to Textadept 9](https://github.com/orbitalquark/textadept/blob/1a898bdf93501c0f39387d92a5f6d21cd472bc40/doc/manual.md#textadept-7-to-8)
+
+#### Language Modules
+
+* A group of unsupported modules (including Adeptsenses) for Java, PHP, RHTML,
+  Ruby, and Ruby on Rails can be found [here](adeptsense)
+
+#### Modules
+
+* [Adeptsense](adeptsense) - code autocompletion and documentation.
 
 #### Miscellaneous
 

@@ -7,7 +7,7 @@ Add
       local c = _SCINTILLA.constants
       local width = #(buffer.line_count..'')
       width = width > 4 and width or 4
-      buffer.margin_width_n[0] = 4 + width * buffer:text_width(c.STYLE_LINENUMBER, '9')
+      buffer.margin_width_n[1] = 4 + width * buffer:text_width(c.STYLE_LINENUMBER, '9')
     end)
 
 to your *~/.textadept/init.lua* to set the line number margin to an appropriate
