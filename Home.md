@@ -32,6 +32,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   [Dscanner](https://github.com/Hackerpilot/Dscanner/) program to provide
   autocomplete for D code.
 * Markdown (https://github.com/rgieseke/ta-markdown)
+* [Lisp](https://repo.or.cz/ta-parkour.git) -- Structured editing for Lisps
 
 **The following may not be compatible with Textadept 11 yet**
 
@@ -55,8 +56,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [YANG](yang-support) -- A module for YANG.
 * [Javascript](https://github.com/AlexanderMisel/ta-javascript) -- A module for
   Javascript.
-* [Lisp](https://repo.or.cz/ta-parkour.git) -- Structured editing for Lisp
-  dialects
 
 ## Modules
 
