@@ -33,6 +33,8 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   autocomplete for D code.
 * Markdown (https://github.com/rgieseke/ta-markdown)
 * [Lisp](https://repo.or.cz/ta-parkour.git) -- Structured editing for Lisps
+* [Javascript](https://github.com/AlexanderMisel/ta-javascript) -- A module for
+  Javascript.
 
 **The following may not be compatible with Textadept 11 yet**
 
@@ -54,8 +56,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Rust](https://bitbucket.org/a_baez/ta-rust) -- This thing has everything you
   could think of for working with the Rust language.
 * [YANG](yang-support) -- A module for YANG.
-* [Javascript](https://github.com/AlexanderMisel/ta-javascript) -- A module for
-  Javascript.
 
 ## Modules
 
