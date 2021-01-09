@@ -5,14 +5,15 @@ event.
     function final_newline()
         local len = buffer.length
         local last = string.char(buffer.char_at[len])
+        local pos = len + 1
         if buffer.eol_mode == buffer.EOL_LF and last ~= '\n' then
-            buffer:insert_text(len, '\n')
+            buffer:insert_text(pos, '\n')
         elseif buffer.eol_mode == buffer.EOL_CR and last ~= '\r' then
-            buffer:insert_text(len, '\r')
+            buffer:insert_text(pos, '\r')
         elseif buffer.eol_mode == buffer.EOL_CRLF and last ~= '\n' then
             local last1 = string.char(buffer.char_at[len-2])
             if last1 ~= '\r' then
-                buffer:insert_text(len, '\r\n')
+                buffer:insert_text(pos, '\r\n')
             end
         end
     end
