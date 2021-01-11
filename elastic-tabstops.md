@@ -1,3 +1,5 @@
+## note: not working for versions > 10
+
 ## What are elastic tabstops?
 
 The elastic tabstops mechanism positions tabstops automatically to fit the text
