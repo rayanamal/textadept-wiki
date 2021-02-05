@@ -79,6 +79,7 @@ function M.init(dir, filter)
   buffer._filter = filter
   buffer:insert_text(-1, dir .. (not WIN32 and '/' or '\\'))
   print_listing(dir)
+  lfs.chdir(dir) -- for features like io.get_project_root()
 end
 
 local function raw_init(dir)
