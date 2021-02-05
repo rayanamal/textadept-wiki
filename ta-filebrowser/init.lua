@@ -1,4 +1,4 @@
--- Copyright 2007-2017 Mitchell mitchell.att.foicica.com. See LICENSE.
+-- Copyright 2007-2021 Mitchell. See LICENSE.
 
 local M = {}
 
@@ -9,7 +9,7 @@ local M = {}
 -- Other keys are: 'p' and 'n' to navigate up or down by item, 'P' and 'N' to
 -- navigate up or down by level, and 'f' and 'b' to navigate within a directory
 -- by its first and last files.
-module('_M.file_browser')]]
+module('file_browser')]]
 
 ---
 -- Map of directory paths to filters used by the file browser.
@@ -17,19 +17,13 @@ module('_M.file_browser')]]
 -- @name dir_filters
 M.dir_filters = {}
 
-M.styles = setmetatable({
-  directory = 5, -- keyword style
-  link = 4, -- number style
-  socket = 7, -- operator style
-}, {__index = function() return 0 end})
-
 local function highlight_folder(start_line)
   if not (buffer._type or ''):match('^%[File Browser') then return end
-  for i = start_line and start_line or 0, buffer.line_count - 1 do
+  for i = start_line and start_line or 1, buffer.line_count do
     local line = buffer:get_line(i)
     if line:find('[/\\][\r\n]*$') then
-      buffer:start_styling(buffer:position_from_line(i), 0xFF)
-      buffer:set_styling(#line, M.styles.directory)
+      buffer:start_styling(buffer:position_from_line(i), 0)
+      buffer:set_styling(#line, buffer:style_of_name('keyword'))
     end
   end
 end
@@ -39,9 +33,9 @@ local function print_listing(dir)
   buffer.read_only = false
   -- Retrieve listing for dir.
   local listing = {}
-  lfs.dir_foreach(dir, function(path)
+  for path in lfs.walk(dir, buffer._filter, 0, true) do
     listing[#listing + 1] = path
-  end, buffer._filter, 0, true)
+  end
   table.sort(listing)
   -- Print listing for dir, styling directories, symlinks, etc.
   local line_num = buffer:line_from_position(buffer.current_pos)
@@ -80,9 +74,10 @@ function M.init(dir, filter)
   if not filter then filter = M.dir_filters[dir] end
   if #_VIEWS == 1 then ui.goto_view(view:split(true)) end
   local buffer = buffer.new()
-  buffer._type = '[File Browser - '..dir..(not WIN32 and '/' or '\\') .. ']'
+  buffer._type = string.format(
+    '[File Browser - %s%s]', dir, not WIN32 and '/' or '\\')
   buffer._filter = filter
-  buffer:insert_text(-1, dir..(not WIN32 and '/' or '\\'))
+  buffer:insert_text(-1, dir .. (not WIN32 and '/' or '\\'))
   print_listing(dir)
 end
 
@@ -100,7 +95,7 @@ local function get_path(line_num)
   local parts = {}
   local indent = buffer.line_indentation[line_num]
   local level = indent
-  for i = line_num, 0, -1 do
+  for i = line_num, 1, -1 do
     local j = buffer.line_indentation[i]
     if j < level then
       table.insert(parts, 1, buffer:get_line(i):match('^%s*([^\r\n]+)'))
@@ -118,10 +113,9 @@ events.connect('char_added', function(code)
      not buffer.read_only then
     return
   end
-  local buffer = buffer
   local line_num = buffer:line_from_position(buffer.current_pos)
   local indent = buffer.line_indentation[line_num]
-  if code == 32 then
+  if code == string.byte(' ') then
     -- Open/Close the directory or open the file.
     local path = get_path(line_num)
     if path:sub(-1, -1) == (not WIN32 and '/' or '\\') then
@@ -163,22 +157,22 @@ events.connect('char_added', function(code)
   elseif code == string.byte('p') then
     buffer:line_up()
   elseif code == string.byte('N') then
-    for i = line_num + 1, buffer.line_count - 1 do
+    for i = line_num + 1, buffer.line_count do
       buffer:line_down()
       if buffer.line_indentation[i] <= indent then break end
     end
   elseif code == string.byte('P') then
-    for i = line_num - 1, 0, -1 do
+    for i = line_num - 1, 1, -1 do
       buffer:line_up()
       if buffer.line_indentation[i] <= indent then break end
     end
   elseif code == string.byte('f') then
-    for i = line_num + 1, buffer.line_count - 1 do
+    for i = line_num + 1, buffer.line_count do
       if buffer.line_indentation[i] < indent then break end
       buffer:line_down()
     end
   elseif code == string.byte('b') then
-    for i = line_num - 1, 0, -1 do
+    for i = line_num - 1, 1, -1 do
       if buffer.line_indentation[i] < indent then break end
       buffer:line_up()
     end
