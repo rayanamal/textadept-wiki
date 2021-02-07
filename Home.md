@@ -79,7 +79,9 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)
   with language servers in order to provide autocompletion, callips, go to
   definition, etc.
-* [File browser](ta-filebrowser) - A simple split-view file browser pane.
+* [File browser](ta-filebrowser) -- A simple split-view file browser pane.
+* [Elastic Tabstops](https://github.com/joshuakraemer/textadept-elastic-tabstops) -- An implementation of Nick Gravgaard’s
+  Elastic Tabstops mechanism.
 
 **The following may not be compatible with Textadept 11 yet**
 
@@ -193,8 +195,6 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [George's module collection](gmc) -- A collection of my most frequently used
   modules, from a simple line centering utility to a reasonably complete macro
   facility.
-* [Elastic Tabstops](elastic-tabstops) -- An implementation of Nick Gravgaard’s
-  Elastic tabstops mechanism.
 * [Lua pattern find](lua-pattern-find) -- Brings back Textadept's Lua pattern
   searches and toggles between them and regular expression searches.
 * [Enhanced Show Style](enhanced-show-style) -- Modify the "show style" tooltip
