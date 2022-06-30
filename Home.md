@@ -135,11 +135,11 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 ## Collection of Modifications, ~/.textadept
 
-* [rgieseke's common module](http://rgieseke.github.com/ta-common/)
-* [Alejandro's common module](https://bitbucket.org/a_baez/ta-common)
-* [Brian's ~/.textadept/ folder](http://hackerpilot.org/configs.php)
+* [rgieseke's common module](http://rgieseke.github.com/ta-common/) _dead link_
+* [Alejandro's common module](https://bitbucket.org/a_baez/ta-common) _dead link_
+* [Brian's ~/.textadept/ folder](http://hackerpilot.org/configs.php) _dead link_
 * [Mitchell's ~/.textadept/](https://github.com/orbitalquark/.textadept)
-* [Alejandro's ~/.textadept/](https://bitbucket.org/a_baez/ta-userhome)
+* [Alejandro's ~/.textadept/](https://bitbucket.org/a_baez/ta-userhome) _dead link_
 * [Gabriel's tweaks](https://github.com/gabdub/ta-tweaks)
 
 ## Theming
