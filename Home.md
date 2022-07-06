@@ -82,6 +82,8 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [File browser](ta-filebrowser) -- A simple split-view file browser pane.
 * [Elastic Tabstops](https://github.com/joshuakraemer/textadept-elastic-tabstops) -- An implementation of Nick Gravgaard’s
   Elastic Tabstops mechanism.
+* [textadept-hydra](https://github.com/mhwombat/textadept-hydra) -- Modeled on the emacs hydra plugin. 
+  Allows you to define key maps for related commands, with the ability to easily repeat commands by using a single keystroke.
 
 **The following may not be compatible with Textadept 11 yet**
 
