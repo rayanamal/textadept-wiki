@@ -40,7 +40,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 * [CoffeeScript](http://rgieseke.github.com/ta-coffeescript) _dead link_
 * [Python](https://bitbucket.org/SirAlaran/ta-python/) -- Helps automate
-  indentation in Python code.
+  indentation in Python code. _dead link_
 * [LaTeX](https://bitbucket.org/SirAlaran/ta-latex/) -- Snippets for LaTeX
   markup.
 * [ConTeXt/LaTeX](https://github.com/stephengaito/ta-context-latex)
