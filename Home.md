@@ -166,7 +166,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Textadept Language Lexers](https://medium.com/@a_baez/textadept-language-lexers-fd96f62e9527)
 * [Textadept Modules](https://medium.com/@a_baez/a-textadept-module-db906f195195?source=your-stories)
 * [Textadept's Userhome](https://medium.com/@a_baez/textadept-s-userhome-29ed8128db52#.owk71g6cz)
-* [Review: Textadept](http://yfl.bahmanm.com/Members/ttmrichter/software-reviews/textadept-review)
+* [Review: Textadept](http://yfl.bahmanm.com/Members/ttmrichter/software-reviews/textadept-review) _dead link_
 * [Textadept is fun to use and hack - Part 1](http://thejeshgn.com/2015/02/28/textadept-is-fun-to-use-and-hack-part-1/)
 
 ## Miscellaneous
