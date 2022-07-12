@@ -176,7 +176,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Find/Replace](FindReplace)
 * [Keyboard Shortcuts](https://orbitalquark.github.io/textadept/api.html#textadept.keys)
 * [Linux / BSD Desktop integration (freedesktop.org .desktop file)](FdoDesktop)
-* [Stupid shell trick](http://yfl.bahmanm.com/Members/ttmrichter/yfl-blog/stupid-shell-trick)
+* [Stupid shell trick](http://yfl.bahmanm.com/Members/ttmrichter/yfl-blog/stupid-shell-trick) _dead link_
   for launching Textadept, among other GUI programs, from the console.
 * [Viewer mode](TextadeptViewer)
 * [Send selected text to **tmux**](selection2tmux) to work with a REPL from
