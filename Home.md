@@ -157,7 +157,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Library](SnippetLibrary)
 * [Extra](https://bitbucket.org/a_baez/ta-extra) -- A module for adding
   snippets/changes to languages on Textadept, without having to write modules
-  for each one.
+  for each one. _dead link_
 
 ## Articles, Guides, and Write-ups
 
