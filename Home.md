@@ -123,7 +123,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Quick "find next" for words under the cursor](GotoNearestOccurrence)
 * [C/C++: completion with clang++](CppClangCompletion)
 * [C/C++: automatic indentation with uncrustify](CppUncrustifyIndent)
-* [Highlight trailing whitespace](HightlightTrailingWhitespace)
+* [Highlight trailing whitespace](HightlightTrailingWhitespace) _dead link_
 * [Stats](Stats) shows line, word, and character counts
 * [Switch to previous buffer (z-order)](previous-buffer-z-order) switches to the
   most recently used buffer, not the previous buffer in the buffer list.
