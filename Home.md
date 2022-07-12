@@ -46,15 +46,15 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [ConTeXt/LaTeX](https://github.com/stephengaito/ta-context-latex)
 * [XML](https://bitbucket.org/SirAlaran/ta-xml/) -- Closes XML tags as you type
   them. Can automatically close tags at the cursor position. Contains several
-  XSLT snippets.
+  XSLT snippets. _dead link_
 * [Hypertext add-on](https://bitbucket.org/SirAlaran/ta-hypertext/) -- Several
   of the above XML module's features, plus a limited implementation of the Zen
-  Coding abbreviation engine. Requires the official Hypertext module.
+  Coding abbreviation engine. Requires the official Hypertext module. _dead link_
 * [Moonscript](https://bitbucket.org/a_baez/ta-moonscript) -- And another one by
-  the [creator of the language](https://github.com/leafo/moonscript-textadept).
-* [Toml](https://bitbucket.org/a_baez/ta-toml) -- A small module with snippets.
+  the [creator of the language](https://github.com/leafo/moonscript-textadept). _dead link_
+* [Toml](https://bitbucket.org/a_baez/ta-toml) -- A small module with snippets. _dead link_
 * [Rust](https://bitbucket.org/a_baez/ta-rust) -- This thing has everything you
-  could think of for working with the Rust language.
+  could think of for working with the Rust language. _dead link_
 * [YANG](yang-support) -- A module for YANG.
 
 ## Modules
