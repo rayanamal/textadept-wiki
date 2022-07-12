@@ -42,7 +42,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Python](https://bitbucket.org/SirAlaran/ta-python/) -- Helps automate
   indentation in Python code. _dead link_
 * [LaTeX](https://bitbucket.org/SirAlaran/ta-latex/) -- Snippets for LaTeX
-  markup.
+  markup. _dead link_
 * [ConTeXt/LaTeX](https://github.com/stephengaito/ta-context-latex)
 * [XML](https://bitbucket.org/SirAlaran/ta-xml/) -- Closes XML tags as you type
   them. Can automatically close tags at the cursor position. Contains several
