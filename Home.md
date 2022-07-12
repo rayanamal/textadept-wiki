@@ -38,7 +38,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 **The following may not be compatible with Textadept 11 yet**
 
-* [CoffeeScript](http://rgieseke.github.com/ta-coffeescript)
+* [CoffeeScript](http://rgieseke.github.com/ta-coffeescript) _dead link_
 * [Python](https://bitbucket.org/SirAlaran/ta-python/) -- Helps automate
   indentation in Python code.
 * [LaTeX](https://bitbucket.org/SirAlaran/ta-latex/) -- Snippets for LaTeX
