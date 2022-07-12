@@ -108,7 +108,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Selected word marker](https://github.com/lundmark/textadept_swm) allows you
   to select text in your buffer and all occurrences of that word will be
   surrounded by a box-indicator.
-* [Brian's common functions](https://bitbucket.org/SirAlaran/ta-common/)
+* [Brian's common functions](https://bitbucket.org/SirAlaran/ta-common/) _dead link_
 * [Folding Key Commands](FoldingCommands)
 * [Math - Replace selected equation with its value](bcmath)
 * [Open terminal here (Linux/BSD)](TerminalHere)
