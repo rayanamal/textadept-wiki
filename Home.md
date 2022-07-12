@@ -89,14 +89,14 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 
 * [Comments](ta-comments)
 * [Hastebin](https://bitbucket.org/a_baez/ta-hastebin) -- A
-  [hastebin](http://hastebin.com/) client module for Textadept.
+  [hastebin](http://hastebin.com/) client module for Textadept. _dead link_
 * [Lapis](https://bitbucket.org/a_baez/ta-lapis) -- A module to work with the
-  [lapis](http://leafo.net/lapis/) web framework.
+  [lapis](http://leafo.net/lapis/) web framework. _dead link_
 * [Love](https://bitbucket.org/a_baez/ta-love) -- A module to work with the
-  [LÖVE](http://love2d.org/) game engine.
+  [LÖVE](http://love2d.org/) game engine. _dead link_
 * [Linux](https://bitbucket.org/a_baez/ta-linux) -- A linux kernel development
   module. Pretty simple, but works and makes life easier when working on those
-  kernel modules or other kernel business.
+  kernel modules or other kernel business. _dead link_
 * [Macro](macro) -- A simple module for recording and replaying of keyboard
   macros.
 * [Relative line numbers](https://github.com/rufusroflpunch/textadept-relative) --
