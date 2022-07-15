@@ -78,7 +78,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   communicates over the
   [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)
   with language servers in order to provide autocompletion, callips, go to
-  definition, etc.
+  definition, etc. Sample language server configurations [are here](LSP-Configurations).
 * [File browser](ta-filebrowser) -- A simple split-view file browser pane.
 * [Elastic Tabstops](https://github.com/joshuakraemer/textadept-elastic-tabstops) -- An implementation of Nick Gravgaard’s
   Elastic Tabstops mechanism.
