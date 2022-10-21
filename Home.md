@@ -84,6 +84,8 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
   Elastic Tabstops mechanism.
 * [textadept-hydra](https://github.com/mhwombat/textadept-hydra) -- Modeled on the emacs hydra plugin. 
   Allows you to define key maps for related commands, with the ability to easily repeat commands by using a single keystroke.
+* [Analyzer](https://github.com/david-von-tamar/textadept-analyzer) -- A static analysis framework for Textadept.
+  Currently, the module integrates [luacheck](https://github.com/mpeterv/luacheck) and shows annotations and indicators (squiggle markers) for errors and warnings within the code editor.
 
 **The following may not be compatible with Textadept 11 yet**
 
