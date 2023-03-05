@@ -160,7 +160,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 * [Extra](https://bitbucket.org/a_baez/ta-extra) -- A module for adding
   snippets/changes to languages on Textadept, without having to write modules
   for each one. _dead link_
-* [Load snippets in directories](../Load-snippets-in-directories) -- A replacement for the `textadept.snippets.paths` feature from Textadept 11 that was removed starting in Textadept 12.
+* [Load snippets in directories](Load-snippets-in-directories) -- A replacement for the `textadept.snippets.paths` feature from Textadept 11 that was removed starting in Textadept 12.
 
 ## Articles, Guides, and Write-ups
 
