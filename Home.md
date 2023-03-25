@@ -136,6 +136,7 @@ Official modules for HTML, CSS, Ruby, Python, ReST, and YAML are available as a
 ## Themes
 
 * [150+ Base-16 themes](https://github.com/rgieseke/base16-textadept/)
+* [A Theme creator Web page](https://mswift42.github.io/themecreator/) Edit and generate your TextAdept theme(s)
 
 ## Collection of Modifications, ~/.textadept
 
