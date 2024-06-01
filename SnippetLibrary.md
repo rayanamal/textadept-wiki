@@ -17,8 +17,15 @@ Generates an inclusion Guard for C/C++ header files. Defaults to the file's name
 
     incguard = [[#ifndef %1(%<(buffer.filename or ''):match('[^/]*$'):upper():match('^[^%.]+')>)_H
     #define %1_H
-
     %0
-
     #endif
+    ]]
+
+
+## TA12: convert hyphens to underscores
+
+With the syntax introduced in TextAdept 12, converting hyphens in a field to underscores looks like this:
+
+    hypopt = [[
+    cmdopt='--{1:long-opt}, var='${1/-/_/g}'
     ]]
